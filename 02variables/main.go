@@ -4,6 +4,13 @@ import (
 	"fmt"
 )
 
+//out of function we have to use var - we cannot use short hand
+var token int = 10000
+
+//use of const 
+// first letter as capital - its publicly available
+const LoginToken = "auth12" // Public
+
 func main() {
 
 	//type string
@@ -45,5 +52,7 @@ func main() {
 	numberOfUsers := 30045.00
 	fmt.Println("Variables - numberOfUsers: ", numberOfUsers)
 	fmt.Printf("numberOfUsers is of type: %T \n", numberOfUsers)
+
+	fmt.Println(LoginToken)
 
 }
