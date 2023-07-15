@@ -21,7 +21,6 @@ func main() {
 	fmt.Println("Variables - smallVal: ", smallVal)
 	fmt.Printf("smallVal is of type: %T \n", smallVal)
 
-
 	//type float32
 	var smallFloat float32 = 255.3453645467
 	fmt.Println("Variables - smallFloat: ", smallFloat)
